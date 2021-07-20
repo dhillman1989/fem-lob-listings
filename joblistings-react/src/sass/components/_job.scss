@@ -2,16 +2,16 @@
   position: relative;
   width: 100%;
   background-color: hsl(0, 0%, 100%);
-  padding: 3rem 1rem 1rem 1rem;
-  margin: 1rem 0 3rem 0;
+  padding: 4rem 1rem 2rem 1rem;
+  margin: 1rem 0 2rem 0;
   border-radius: 4px;
   box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.3);
   &--highlight {
     border-left: 4px solid hsl(180, 29%, 50%);
   }
   &__image {
-    width: 60px;
-    height: 60px;
+    width: 75px;
+    height: 75px;
     position: absolute;
     top: -30px;
   }
@@ -37,12 +37,12 @@
     border-radius: 25px;
   }
   &__title {
-    margin-top: 0.5rem;
+    margin-top: 0.75rem;
     font-size: 1rem;
   }
   &__details {
-    margin-top: 0.5rem;
-
+    margin-top: 0.75rem;
+    color: rgb(119, 119, 119);
     & ul li:not(:first-child) {
       margin-left: 1rem;
       list-style-type: disc;
