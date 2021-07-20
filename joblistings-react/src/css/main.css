@@ -48,7 +48,7 @@ body {
   width: 100%;
   background-color: white;
   padding: 4rem 1rem 2rem 1rem;
-  margin: 1rem 0 2rem 0;
+  margin: 1rem 0 4rem 0;
   border-radius: 4px;
   box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.3);
 }
@@ -114,8 +114,11 @@ body {
   background-color: #dbe7e5;
   padding: 5px 10px;
   border-radius: 5px;
-  margin-right: 1.5rem;
   margin-bottom: 1rem;
+}
+
+.job__skills ul li:not(:last-child) {
+  margin-right: 1.5rem;
 }
 
 .job__skills ul li:hover {
@@ -127,6 +130,7 @@ body {
   .job {
     display: flex;
     padding: 2rem;
+    margin-bottom: 2rem;
   }
   .job__image {
     position: relative;
